@@ -11,16 +11,6 @@ module.exports = function ( grunt ) {
     ],
 
     copy: {
-      v2013: {
-        files: [
-          {
-            src: [ './2013/**' ],
-            dest: 'build/',
-            cwd: '.',
-            expand: true
-          }
-       ]
-      },
       workshop: {
         files: [
           {
