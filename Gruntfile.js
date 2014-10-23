@@ -11,10 +11,10 @@ module.exports = function ( grunt ) {
     ],
 
     copy: {
-      workshop: {
+      cname: {
         files: [
           {
-            src: [ './workshop/**' ],
+            src: [ './CNAME' ],
             dest: 'build/',
             cwd: '.',
             expand: true
